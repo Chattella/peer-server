@@ -1,0 +1,43 @@
+{
+  "name": "peer-server",
+  "description": "Peer management server",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Chattella/peer-server",
+  "author": {
+    "name": "Andrea Parodi",
+    "email": "andrea.parodi@ebansoftware.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chattella/peer-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chattella/peer-server/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Chattella/peer-server/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/peer-server",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "~0.7.0",
+    "expect.js": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "keywords": [],
+  "dependencies": {
+    "rimraf": "~2.2.6",
+    "request": "~2.34.0",
+    "concat-stream": "~1.4.4",
+    "express": "~3.5.1"
+  }
+}
