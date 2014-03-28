@@ -35,9 +35,14 @@
   },
   "keywords": [],
   "dependencies": {
-    "rimraf": "~2.2.6",
+     "rimraf": "~2.2.6",
     "request": "~2.34.0",
     "concat-stream": "~1.4.4",
-    "express": "~3.5.1"
+    "express": "~3.5.1",
+    "keypair": "~1.0.0",
+    "pem": "~1.4.0",
+    "bcrypt-nodejs": "0.0.3",
+    "q": "~1.0.1",
+    "q-io": "~1.11.0"
   }
 }
